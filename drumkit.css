@@ -1,0 +1,56 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+.main-wrapper {
+  margin: 30px auto 0;
+  width: 1080px;
+  text-align: center;
+}
+
+.key-map-wrapper {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  background: rgb(0, 0, 0);
+  width: 250px;
+  z-index: 3;
+}
+
+.key-map-wrapper > h2 {
+  color: #fff;
+  font-family: 'Handlee', cursive;
+  margin-bottom: 35px;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 20px;
+}
+
+.key-map-list {
+  list-style: none;
+  color: #fff;
+  text-align: left;
+}
+
+.key-map-list > li {
+  margin-bottom: 25px;
+}
+
+.key-code {
+  color: #444;
+  font-size: 1.25em;
+  padding: 5px 10px;
+  background-color: #eaeaea;
+  border: 3px solid #aaa;
+  border-radius: 4px;
+}
+
+.key-sound {
+  font-size: 1.2em;
+  margin-left: 10px;
+  font-family: 'Handlee', cursive;
+  vertical-align: middle;
+}
