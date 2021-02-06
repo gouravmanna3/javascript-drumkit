@@ -161,3 +161,13 @@ body {
 .playing {
 	transform: scale(1.12);
 }
+
+footer {
+  position: fixed;
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  bottom: 0;
+  text-align: left;
+}
